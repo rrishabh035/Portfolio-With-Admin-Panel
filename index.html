@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rishabh Rana</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">
+			<img src="media/logo.gif" width="30" height="30">
+			Rishabh
+
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav ml-auto">
+
+				<li class="nav-item">
+					<a href="#" class="nav-link">Profile</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" >Portfolio</a>
+					<div class="dropdown-menu">
+						<a href="" class="dropdown-item">Graphic Designing</a>
+						<a href="" class="dropdown-item">Website Designing &<br> Development</a>
+						<a href="" class="dropdown-item">Software Development</a>
+						<a href="" class="dropdown-item">Internship & Certificates</a>
+						<a href="" class="dropdown-item">Researchs</a>
+						<div class="dropdown-divider"></div>
+						<a href="" class="dropdown-item">YouTube</a>
+
+					</div>
+				</li>
+
+				<li class="nav-item ">
+					<a href="#" class="nav-link">Blogs</a>
+				</li>
+
+				
+				<li class="nav-item ">
+					<a href="#" type="button" class="nav-link btn btn-success" data-toggle="modal" data-target="#modalBox">Contact</a>
+				</li>
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+	<!--contact modal box-->
+	<div class="modal fade" id="modalBox" data-backdrop="static" tabindex="-1" role="modal">
+		<div class="modal-dialog modal-xl modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body">
+					<form>
+						<div class="form-row">
+							<div class="col">
+								<div class="form-group">
+									<label for="name">Your Name</label>
+									<input type="text" class="form-control" name="name" id="name">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<label for="company">Company Name</label>
+									<input type="text" class="form-control" name="company" id="company">
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email">Email Id</label>
+							<input type="email" class="form-control" name="email" id="email">
+							<small class="form-text text-muted">Don't worry data won't be shared to any third party</small>
+						</div>
+
+						<div class="form-group">
+							<label for="purpose">Purpose</label>
+							<select class="form-control" id="purpose">
+								<option value="freelancing">Freelancing</option>
+								<option value="hiring">Hiring</option>
+								<option value="query">Query</option>
+								<option value="invitation">Invitation</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="other">Message</label>
+							<textarea class="form-control" id="other" rows="3"></textarea>
+						</div>
+
+						<div class="form-group">
+							<label for="file">File</label>
+							<input type="file" class="form-control-file" name="file">
+						</div>
+
+					</form>
+
+				</div>
+
+				<div class="modal-footer ">
+					<button type="button" class="btn btn-danger mr-auto " data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-success">Reset</button>
+					<button type="button" class="btn btn-success">Submit</button>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!--carousel -->
+		
+		<div id="carousel" class="carousel slide  h-100 carousel-fade" data-ride="carousel" data-pause="false">
+			
+			<ol class="carousel-indicators">
+				
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1" ></li>
+				<li data-target="#carousel" data-slide-to="2" ></li>
+
+
+			</ol>
+
+			<div class="carousel-inner h-100">
+				
+				<div class="carousel-item h-100 active" >
+					<img src="https://media.giphy.com/media/povenlBAIz14s/giphy.gif" class="d-block h-100 w-100 carousel-images">
+					<div class="carousel-caption mb-4" style="font-size:2rem;">
+						<p>Website Designer & Developer</p>
+						<a href="" type="button" class="btn btn-success">Web Designing Portfolio</a>
+					</div>
+				</div>
+
+				<div class="carousel-item h-100" >
+					<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" class="d-block h-100 w-100 carousel-images">
+					<div class="carousel-caption mb-4" style="font-size:2rem;">
+						<p>Software Developer</p>
+						<a href="" type="button" class="btn btn-success">Software Development Portfolio</a>
+					</div>
+				</div>
+
+				<div class="carousel-item h-100" >
+					<img src="https://media.giphy.com/media/xFkbhJ4KFLW8twElm9/giphy.gif" class="d-block h-100 w-100 carousel-images">
+					<div class="carousel-caption mb-4" style="font-size:2rem;">
+						<p>Graphic Designer</p>
+						<a href="" type="button" class="btn btn-success">Graphic Designing Portfolio</a>
+					</div>
+				</div>
+
+
+			<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+
+
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</body>
+</html>
