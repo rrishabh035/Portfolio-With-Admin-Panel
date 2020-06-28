@@ -1,0 +1,50 @@
+html,body{
+	height:100%;
+	overflow-x: hidden;
+}
+#quote{
+	background-image: url('https://image.winudf.com/v2/image/Y29tLmJsYWNrYmFja2dyb3VuZHdhbGxwYXBlcnNpbWFnZXNfc2NyZWVuXzBfMTUwOTI1MjEyOF8wMzY/screen-0.jpg?fakeurl=1&type=.jpg');
+	background-position:-500px -40px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#footer{
+	background-image: url('https://image.winudf.com/v2/image/Y29tLmJsYWNrYmFja2dyb3VuZHdhbGxwYXBlcnNpbWFnZXNfc2NyZWVuXzBfMTUwOTI1MjEyOF8wMzY/screen-0.jpg?fakeurl=1&type=.jpg');
+	background-position:1400px -40px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+i{
+	color: white;
+}
+.curved-div{
+	padding-bottom: 0;
+	background-image:url("../media/background.p");
+	background-attachment: fixed;
+	background-size: cover;
+
+}	
+.curved-div svg{
+	display: block;
+	
+}
+
+
+@media screen and (max-width:800px){
+	#quote{
+	background-image: url('https://image.winudf.com/v2/image/Y29tLmJsYWNrYmFja2dyb3VuZHdhbGxwYXBlcnNpbWFnZXNfc2NyZWVuXzBfMTUwOTI1MjEyOF8wMzY/screen-0.jpg?fakeurl=1&type=.jpg');
+	background-position:-350px -40px;
+	background-size: cover;
+	background-attachment: fixed;
+}	
+	#footer{
+	background-image: url('https://image.winudf.com/v2/image/Y29tLmJsYWNrYmFja2dyb3VuZHdhbGxwYXBlcnNpbWFnZXNfc2NyZWVuXzBfMTUwOTI1MjEyOF8wMzY/screen-0.jpg?fakeurl=1&type=.jpg');
+	background-position:1500px -40px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+}
+
